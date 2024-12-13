@@ -14,7 +14,7 @@
   </head>
   <body>
     <!-- navbar start -->
-    <div class="flex flex-col items-center overflow-x-hidden">
+    <div class="flex flex-col items-center overflow-x-hidden mb-[100px]">
       <div
         class="navbar h-[100px] flex items-center w-full justify-center lg:justify-evenly bg-[#4a154b] text-white relative"
       >
@@ -65,36 +65,30 @@
         </div>
       </div>
 
-      <div class="h-[200px] w-[400px] relative lg:hidden">
-        <img
-          class="w-[100%] h-[100%] object-center object-contain shadow-xl"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW0aDSKq7OwIEYfm27VuchGFmYxohj1umGMpV8dZ7MBAsFR7O8N3gwlYnwE-YTeuGakdA&usqp=CAU"
-          alt=""
-        />
-      </div>
-
       <!-- bannner start -->
 
       <div
-        class="w-full h-[550px] bg-[#4a154b] flex justify-center items-center hidden lg:block"
+        class="w-full h-[550px] bg-[#4a154b] flex justify-center items-center lg:flex-col"
       >
         <div class="w-[100%] h-[400px] flex gap-2">
           <div class="w-[50%] h-full flex justify-end items-center">
             <div class="w-[50%]">
-              <span class="text-[49px] text-white">Made for People</span>
+              <span class="text-[35px] md:text-[49px] text-white"
+                >Made for People</span
+              >
               <br />
-              <span class="text-yellow-400 text-[47px] font-bold"
+              <span class="text-yellow-400 text-[32px] md:text-[47px] font-bold"
                 >Build for Productivity</span
               >
               <br />
               <button
-                class="p-2 bg-white hover:bg-blue-500 hover:text-white delay-150 rounded-lg"
+                class="p-2 bg-white hover:bg-blue-500 hover:text-white delay-150 rounded-lg text-nowrap"
               >
                 Click For Android
               </button>
             </div>
           </div>
-          <div class="w-[50%] h-full flex justify-center pr-[400px]">
+          <div class="w-[50%] h-full hidden justify-center pr-[400px] lg:flex">
             <div class="w-[100%] rounded-full mt-[50px]">
               <img
                 class="object-center object-cover w-[100%] h-[100%] rounded-xl shadow-xl"
@@ -102,28 +96,16 @@
                 alt=""
               />
             </div>
-            <!-- <div class="h-[200px] w-[400px] relative mt-[50px]">
-              <img
-                class="w-[100%] h-[100%] object-center object-contain shadow-xl"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW0aDSKq7OwIEYfm27VuchGFmYxohj1umGMpV8dZ7MBAsFR7O8N3gwlYnwE-YTeuGakdA&usqp=CAU"
-                alt=""
-              />
-            </div>
-            <div class="h-[200px] w-[300px] absolute mt-[160px] mr-[200px]">
-              <img
-                class="w-[100%] h-[100%] object-center object-contain shadow-xl"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW0aDSKq7OwIEYfm27VuchGFmYxohj1umGMpV8dZ7MBAsFR7O8N3gwlYnwE-YTeuGakdA&usqp=CAU"
-                alt=""
-              />
-            </div> -->
           </div>
         </div>
       </div>
 
       <!-- card start -->
-      <div class=" bg-yellow-100/50 h-[100%] w-[100%] flex items-center flex-col">
+      <div
+        class="bg-yellow-100/50 h-[100%] w-[100%] flex items-center flex-col"
+      >
         <div
-          class="flex flex-nowrap space-x-3 lg:space-x-8 w-[400px] lg:w-[800px] mt-10 items-center h-[100px]"
+          class="flex flex-nowrap space-x-3 lg:space-x-8 w-[320px] p-3 lg:w-[800px] mt-10 items-center h-[100px]"
         >
           <div>
             <img
@@ -166,7 +148,9 @@
         <!-- card start  -->
         <div class="h-[450px] w-full mt-[50px] flex">
           <div class="w-[50%] h-full flex items-center justify-end pr-10">
-            <div class="bg-blue-400 w-[65%] h-[90%] shadow-lg rounded-lg">
+            <div
+              class="bg-blue-400 w-[80%] sm:w-[65%] sm:h-[90%] shadow-lg rounded-lg"
+            >
               <img
                 class="w-[100%] h-[100%] object-contain p-6 hover:scale-105 delay-100"
                 src="https://a.slack-edge.com/7eb35da/marketing/img/homepage/mobile-focused/inline-images/01-messaging-that-means-business-android.IN@2x.png"
@@ -180,7 +164,7 @@
             <div
               class="w-[65%] h-[90%] flex justify-center items-center flex-col"
             >
-              <h1 class="text-[24px] lg:text-[46px] w-[70%] font-bold">
+              <h1 class="text-[24px] lg:text-[46px] w-[100%] font-bold">
                 Messaging that means business
               </h1>
               <p class="text-[10px] lg:text-[30px] w-[90%] mt-1">
@@ -197,7 +181,9 @@
         </div>
         <div class="h-[450px] w-full mt-5 flex">
           <div class="w-[50%] h-full flex items-center justify-end pr-10">
-            <div class="bg-yellow-400 w-[65%] h-[90%] shadow-lg rounded-lg">
+            <div
+              class="bg-yellow-400 w-[80%] sm:w-[65%] sm:h-[90%] shadow-lg rounded-lg"
+            >
               <img
                 class="w-[100%] h-[100%] object-contain p-6 hover:scale-105 delay-100"
                 src="https://a.slack-edge.com/7eb35da/marketing/img/homepage/mobile-focused/inline-images/02-bring-your-team-together-android.IN@2x.png"
@@ -228,7 +214,9 @@
         </div>
         <div class="h-[450px] w-full mt-5 flex">
           <div class="w-[50%] h-full flex items-center justify-end pr-10">
-            <div class="bg-green-400 w-[65%] h-[90%] shadow-lg rounded-lg">
+            <div
+              class="bg-green-400 w-[80%] sm:w-[65%] sm:h-[90%] shadow-lg rounded-lg"
+            >
               <img
                 class="w-[100%] h-[100%] object-contain p-6 hover:scale-105 delay-100"
                 src="https://a.slack-edge.com/7eb35da/marketing/img/homepage/mobile-focused/inline-images/03-choose-how-you-work-android.IN@2x.png"
@@ -288,21 +276,27 @@
         </div>
 
         <div class="flex justify-center mt-20">
-          <div class="w-[20%] flex flex-col items-center justify-center">
+          <div
+            class="w-[50%] md:w-[20%] flex flex-col items-center justify-center"
+          >
             <h1 class="text-[60px] font-bold text-[#4a154b]">85%</h1>
             <p class="line-clamp-3 w-[60%]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Accusamus.
             </p>
           </div>
-          <div class="w-[20%] flex flex-col items-center justify-center">
+          <div
+            class="w-[50%] md:w-[20%] flex flex-col items-center justify-center"
+          >
             <h1 class="text-[60px] font-bold text-[#4a154b]">87%</h1>
             <p class="line-clamp-3 w-[60%]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Accusamus.
             </p>
           </div>
-          <div class="w-[20%] flex flex-col items-center justify-center">
+          <div
+            class="w-[50%] md:w-[20%] flex flex-col items-center justify-center"
+          >
             <h1 class="text-[60px] font-bold text-[#4a154b]">86%</h1>
             <p class="line-clamp-3 w-[60%]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -323,10 +317,10 @@
       <!-- circl design -->
 
       <div
-        class="w-[100%] h-[340px] bg-[#4a154b] rounded-b-full mb-16 flex flex-col items-center"
+        class="w-[100%] h-[340px] bg-[#4a154b] rounded-b-full mb-16 flex flex-col items-center mt-[200px] lg:mt-0"
       >
-        <div>
-          <h1 class="text-white text-[56px] font-semibold mt-16">
+        <div class="text-center">
+          <h1 class="text-white text-[34px] md:text-[56px] font-semibold mt-16">
             See all that you can accomplish with Slack
           </h1>
         </div>
@@ -359,15 +353,15 @@
           </div>
           <hr class="w-[55%] mt-6" />
 
-          <div class="mt-6 flex justify-between w-[55%]">
-            <div class="w-[20%]">
+          <div class="mt-6 flex justify-center md:justify-between w-[55%]">
+            <div class="md:w-[20%] w-[50%]">
               <img
                 class="w-[45%]"
                 src="https://a.slack-edge.com/fd21de4/marketing/img/nav/logo.svg"
                 alt=""
               />
             </div>
-            <div class="flex w-[80%] space-x-20 text-gray-700">
+            <div class="w-[80%] space-x-20 text-gray-700 hidden md:flex">
               <div>
                 <ul class="flex flex-col gap-2">
                   <li class="font-bold mb-3">product</li>
@@ -474,20 +468,34 @@
       <hr class="w-[55%] mt-6" />
 
       <div
-        class="w-[55%] h-[130px] flex justify-between gap-[100px] items-center"
+        class="w-[55%] h-[130px] flex-col text-center justify-center md:flex md:justify-between items-center md:items-center"
       >
-        <div>
-          <ul class="flex space-x-6 text-sm text-nowrap">
-            <li>Douload SLack</li>
-            <li>Privacy</li>
-            <li>Term</li>
-            <li>Cokokie prefrences</li>
-            <li>your Privacy</li>
-            <li>choices *</li>
+        <div class="w-full flex items-center justify-center mt-9">
+          <ul
+            class="flex justify-center md:flex space-x-2 md:space-x-6 text-sm text-nowrap flex-wrap"
+          >
+            <li class="rounded-full border border-2 border-black p-1">
+              Download SLack
+            </li>
+            <li class="rounded-full border border-2 border-black p-1">
+              Privacy & apply
+            </li>
+            <li class="rounded-full border border-2 border-black p-1">
+              Term & conditions
+            </li>
+            <li class="rounded-full border border-2 border-black p-1">
+              Cokokie prefrences
+            </li>
+            <li class="rounded-full border border-2 border-black p-1">
+              your Privacy
+            </li>
+            <li class="rounded-full border border-2 border-black p-1">
+              choices *
+            </li>
           </ul>
         </div>
         <div>
-          <p class="text-gray-800">
+          <p class="text-gray-800 pt-[20px] md:mt-0">
             ©2024 Slack Technologies, LLC, a Salesforce company. All rights
             reserved. Various trademarks held by their respective owners.
           </p>
