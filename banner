@@ -1,0 +1,32 @@
+<div class="h-[350px] mt-[100px] flex items-center">
+        <div class="w-[50%] h-[100%] flex justify-center mt-[200px]]">
+          <div class="w-[50%] h-[50%]">
+            <div class="">
+              <span class="text-[49px] text-white">Made for People</span>
+              <br />
+              <span class="text-[48px] text-yellow-400"
+                >Build for Productivity</span
+              >
+              <br />
+              <button class="p-2 bg-white">Click For Android</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-[50%] h-[100%] flex items-center justify-center">
+          <div class="relative w-[500px]">
+            <img
+              class="w-[100%] h-[100%]"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW0aDSKq7OwIEYfm27VuchGFmYxohj1umGMpV8dZ7MBAsFR7O8N3gwlYnwE-YTeuGakdA&usqp=CAU"
+              alt=""
+            />
+          </div>
+          <div class="absolute mt-[170px] mr-[300px] lg:w-[400px]">
+            <img
+              class="w-[100%] h-[100%]"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW0aDSKq7OwIEYfm27VuchGFmYxohj1umGMpV8dZ7MBAsFR7O8N3gwlYnwE-YTeuGakdA&usqp=CAU"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>

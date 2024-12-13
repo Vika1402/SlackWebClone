@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <div class="flex flex-col items-center overflow-x-hidden">
+      <div
+        class="navbar h-[100px] flex items-center w-full justify-center lg:justify-evenly bg-[#4a154b] text-white relative"
+      >
+        <div
+          class="logoMenu h-[100%] flex items-center lg:space-x-6 text-nowrap ml-[20px]"
+        >
+          <div class="w-[47px] flex gap-1 items-center justify-center mr-10">
+            <img
+              class="w-[100%] h-[100%]"
+              src="https://a.slack-edge.com/fd21de4/marketing/img/nav/logo.svg"
+              alt=""
+            />
+            <span class="text-2xl">Slack</span>
+          </div>
+
+          <div class="hidden lg:flex gap-4">
+            <div>
+              Features
+              <span><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+            <div>
+              Solution
+              <span><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+            <div>Enterprise</div>
+            <div>
+              Resources
+              <span><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+            <div>Pricing</div>
+          </div>
+        </div>
+
+        <div class="signbuttons flex items-center justify-between space-x-8">
+          <div class="hidden lg:block">SignIn</div>
+          <div>
+            <button class="px-4 py-2 bg-blue-400 rounded-md text-nowrap">
+              Talk To Sale
+            </button>
+          </div>
+          <div>
+            <button
+              class="px-4 py-2 bg-blue-100 rounded-md border-2 border-black text-black hidden lg:block"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-[200px] w-[400px] relative lg:hidden">
+        <img
+          class="w-[100%] h-[100%] object-center object-contain shadow-xl"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW0aDSKq7OwIEYfm27VuchGFmYxohj1umGMpV8dZ7MBAsFR7O8N3gwlYnwE-YTeuGakdA&usqp=CAU"
+          alt=""
+        />
+      </div>
+
+      <!-- bannner start -->
+
+      <div
+        class="w-full h-[550px] bg-[#4a154b] flex justify-center items-center hidden lg:block"
+      >
+        <div class="w-[100%] h-[400px] flex gap-2">
+          <div class="w-[50%] h-full flex justify-end items-center">
+            <div class="w-[50%]">
+              <span class="text-[49px] text-white">Made for People</span>
+              <br />
+              <span class="text-yellow-400 text-[47px] font-bold"
+                >Build for Productivity</span
+              >
+              <br />
+              <button
+                class="p-2 bg-white hover:bg-blue-500 hover:text-white delay-150 rounded-lg"
+              >
+                Click For Android
+              </button>
+            </div>
+          </div>
+          <div class="w-[50%] h-full flex justify-center pr-[400px]">
+            <div class="w-[100%] rounded-full mt-[50px]">
+              <img
+                class="object-center object-cover w-[100%] h-[100%] rounded-xl shadow-xl"
+                src="https://img.freepik.com/free-vector/travel-landing-page_52683-4853.jpg?t=st=1734081952~exp=1734085552~hmac=fc0c86bb0e32c105e56666609f3b7cd13c24ae69f1c6fce407a180e1ee5dffee&w=1380"
+                alt=""
+              />
+            </div>
+            <!-- <div class="h-[200px] w-[400px] relative mt-[50px]">
+              <img
+                class="w-[100%] h-[100%] object-center object-contain shadow-xl"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW0aDSKq7OwIEYfm27VuchGFmYxohj1umGMpV8dZ7MBAsFR7O8N3gwlYnwE-YTeuGakdA&usqp=CAU"
+                alt=""
+              />
+            </div>
+            <div class="h-[200px] w-[300px] absolute mt-[160px] mr-[200px]">
+              <img
+                class="w-[100%] h-[100%] object-center object-contain shadow-xl"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW0aDSKq7OwIEYfm27VuchGFmYxohj1umGMpV8dZ7MBAsFR7O8N3gwlYnwE-YTeuGakdA&usqp=CAU"
+                alt=""
+              />
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <!-- card start -->
+      <div class=" bg-yellow-100/50 h-[100%] w-[100%] flex items-center flex-col">
+        <div
+          class="flex flex-nowrap space-x-3 lg:space-x-8 w-[400px] lg:w-[800px] mt-10 items-center h-[100px]"
+        >
+          <div>
+            <img
+              src="https://a.slack-edge.com/ce51938/marketing/img/logos/company/_color/logo-seek@2x.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://a.slack-edge.com/ce51938/marketing/img/logos/company/_color/logo-xero@2x.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://a.slack-edge.com/96f2e65/marketing/img/logos/company/_color/rea@2x.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://a.slack-edge.com/f854ec/marketing/img/logos/company/_color/rmit@2x.png"
+              alt=""
+            />
+          </div>
+
+          <div>
+            <img
+              src="https://a.slack-edge.com/a121d33/marketing/img/digital-hq/logo-ibm@2x.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="https://a.slack-edge.com/f854ec/marketing/img/logos/company/_color/deliveroo@2x.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- card start  -->
+        <div class="h-[450px] w-full mt-[50px] flex">
+          <div class="w-[50%] h-full flex items-center justify-end pr-10">
+            <div class="bg-blue-400 w-[65%] h-[90%] shadow-lg rounded-lg">
+              <img
+                class="w-[100%] h-[100%] object-contain p-6 hover:scale-105 delay-100"
+                src="https://a.slack-edge.com/7eb35da/marketing/img/homepage/mobile-focused/inline-images/01-messaging-that-means-business-android.IN@2x.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            class="w-[50%] h-[100%] flex items-center justify-start text-center"
+          >
+            <div
+              class="w-[65%] h-[90%] flex justify-center items-center flex-col"
+            >
+              <h1 class="text-[24px] lg:text-[46px] w-[70%] font-bold">
+                Messaging that means business
+              </h1>
+              <p class="text-[10px] lg:text-[30px] w-[90%] mt-1">
+                Slack is built for work. It’s the app where you can instantly
+                reach your team on the go or at your desk.
+              </p>
+
+              <p class="font-semibold text-[10px] lg:text-[17px] mt-3">
+                Learn more about Slack features
+                <span class="text-blue-600 cursor-pointer">Link</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="h-[450px] w-full mt-5 flex">
+          <div class="w-[50%] h-full flex items-center justify-end pr-10">
+            <div class="bg-yellow-400 w-[65%] h-[90%] shadow-lg rounded-lg">
+              <img
+                class="w-[100%] h-[100%] object-contain p-6 hover:scale-105 delay-100"
+                src="https://a.slack-edge.com/7eb35da/marketing/img/homepage/mobile-focused/inline-images/02-bring-your-team-together-android.IN@2x.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            class="w-[50%] h-[90%] flex items-center justify-start text-center"
+          >
+            <div
+              class="w-[65%] h-[100%] flex justify-center items-center flex-col"
+            >
+              <h1 class="text-[24px] lg:text-[46px] w-[70%] font-bold">
+                Bring your team together
+              </h1>
+              <p class="text-[10px] lg:text-[30px] w-[90%] mt-1">
+                At the heart of Slack are channels: organised spaces for
+                everyone and everything that you need for work.
+              </p>
+
+              <p class="font-semibold text-[10px] lg:text-[17px] mt-3">
+                Learn more about channels
+                <span class="text-blue-600 cursor-pointer">Link</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="h-[450px] w-full mt-5 flex">
+          <div class="w-[50%] h-full flex items-center justify-end pr-10">
+            <div class="bg-green-400 w-[65%] h-[90%] shadow-lg rounded-lg">
+              <img
+                class="w-[100%] h-[100%] object-contain p-6 hover:scale-105 delay-100"
+                src="https://a.slack-edge.com/7eb35da/marketing/img/homepage/mobile-focused/inline-images/03-choose-how-you-work-android.IN@2x.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            class="w-[50%] h-[100%] flex items-center justify-start text-center"
+          >
+            <div
+              class="w-[65%] h-[90%] flex justify-center items-center flex-col"
+            >
+              <h1 class="text-[24px] lg:text-[46px] w-[70%] font-bold">
+                Choose how you want to work
+              </h1>
+              <p class="text-[10px] lg:text-[30px] w-[90%] mt-1">
+                You can chat, send audio and video clips, or join a huddle to
+                talk things through live.
+              </p>
+
+              <p class="font-semibold text-[10px] lg:text-[17px] mt-3">
+                Learn more about flexible communication
+                <span class="text-blue-600 cursor-pointer">Link</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- team larger small -->
+      <div
+        class="w-full h-[550px] flex flex-col gap-4 text-center justify-start mt-[50px]"
+      >
+        <div>
+          <h1 class="text-[50px] font-semibold">
+            Teams large and small rely on Slack
+          </h1>
+        </div>
+        <div>
+          <p class="text-[24px]">
+            Slack securely scales up to support collaboration at the world’s
+            biggest companies.
+          </p>
+        </div>
+        <div class="space-x-3">
+          <button
+            class="p-2 bg-[#4a154b] text-white border border-2 border-black rounded-md"
+          >
+            Meet slack for enterprice
+          </button>
+          <button
+            class="p-2 bg-white border border-2 border-gray-400 rounded-md"
+          >
+            Talk To Sale
+          </button>
+        </div>
+
+        <div class="flex justify-center mt-20">
+          <div class="w-[20%] flex flex-col items-center justify-center">
+            <h1 class="text-[60px] font-bold text-[#4a154b]">85%</h1>
+            <p class="line-clamp-3 w-[60%]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusamus.
+            </p>
+          </div>
+          <div class="w-[20%] flex flex-col items-center justify-center">
+            <h1 class="text-[60px] font-bold text-[#4a154b]">87%</h1>
+            <p class="line-clamp-3 w-[60%]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusamus.
+            </p>
+          </div>
+          <div class="w-[20%] flex flex-col items-center justify-center">
+            <h1 class="text-[60px] font-bold text-[#4a154b]">86%</h1>
+            <p class="line-clamp-3 w-[60%]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusamus.
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-6">
+          <p>
+            * Weighted average. Based on 2,707 survey responses from weekly
+            Slack users in the US, UK, Australia and Canada with a ± 2% margin
+            of error at 95% CI (December 2021).
+          </p>
+        </div>
+      </div>
+
+      <!-- circl design -->
+
+      <div
+        class="w-[100%] h-[340px] bg-[#4a154b] rounded-b-full mb-16 flex flex-col items-center"
+      >
+        <div>
+          <h1 class="text-white text-[56px] font-semibold mt-16">
+            See all that you can accomplish with Slack
+          </h1>
+        </div>
+        <div class="space-x-3 mt-5">
+          <button class="p-2 bg-white border border-2 border-black rounded-md">
+            Meet slack for enterprice
+          </button>
+          <button
+            class="p-2 text-white border border-1.5 border-white rounded-md"
+          >
+            Talk To Sale
+          </button>
+        </div>
+      </div>
+      <!-- footer start -->
+      <div class="w-full">
+        <div class="flex flex-col items-center justify-between">
+          <div class="flex justify-evenly w-full">
+            <div>
+              <i class="fa-solid fa-globe text-xl"></i>
+              Change region
+            </div>
+            <div class="flex space-x-6 text-xl">
+              <span><i class="fa-brands fa-instagram"></i></span>
+              <span><i class="fa-brands fa-linkedin"></i></span>
+              <span><i class="fa-solid fa-envelope"></i></span>
+              <span><i class="fa-brands fa-youtube"></i></span>
+              <span><i class="fa-solid fa-phone"></i></span>
+            </div>
+          </div>
+          <hr class="w-[55%] mt-6" />
+
+          <div class="mt-6 flex justify-between w-[55%]">
+            <div class="w-[20%]">
+              <img
+                class="w-[45%]"
+                src="https://a.slack-edge.com/fd21de4/marketing/img/nav/logo.svg"
+                alt=""
+              />
+            </div>
+            <div class="flex w-[80%] space-x-20 text-gray-700">
+              <div>
+                <ul class="flex flex-col gap-2">
+                  <li class="font-bold mb-3">product</li>
+                  <li>Watch demo</li>
+                  <li>Pricing</li>
+                  <li>Paid vs Free</li>
+                  <li>Accessibility</li>
+                  <li>Featured releases</li>
+                  <li>Change log</li>
+                  <li>Status</li>
+                </ul>
+                <br />
+                <ul class="flex flex-col gap-2">
+                  <li class="font-bold mb-3">Services</li>
+                  <li>Featured releases</li>
+                  <li>Change log</li>
+                  <li>Status</li>
+                  <li>product</li>
+                  <li>Watch demo</li>
+                  <li>Pricing</li>
+                  <li>Paid vs Free</li>
+                  <li>Accessibility</li>
+                </ul>
+              </div>
+              <div>
+                <ul class="flex flex-col gap-2">
+                  <li class="font-bold mb-3">LifeStyle</li>
+                  <li>Watch demo</li>
+                  <li>Pricing</li>
+                  <li>Paid vs Free</li>
+                  <li>Accessibility</li>
+                  <li>Featured releases</li>
+                  <li>Change log</li>
+                </ul>
+                <ul>
+                  <li>Accessibility</li>
+                  <li>Featured releases</li>
+                  <li>Change log</li>
+                  <li>Status</li>
+                  <li>product</li>
+                  <li>Watch demo</li>
+                  <li>Pricing</li>
+                  <li>Paid vs Free</li>
+                  <li>Accessibility</li>
+                </ul>
+              </div>
+              <div>
+                <ul class="flex flex-col gap-2">
+                  <li class="font-bold mb-3">Advancement</li>
+                  <li>Watch demo</li>
+                  <li>Pricing</li>
+                  <li>product</li>
+                  <li>Watch demo</li>
+                  <li>Pricing</li>
+                  <li>Paid vs Free</li>
+                  <li>Accessibility</li>
+                  <li>Featured releases</li>
+                  <li>Change log</li>
+                  <li>Status</li>
+                  <li>Paid vs Free</li>
+                  <li>Accessibility</li>
+                  <li>Featured releases</li>
+                  <li>Change log</li>
+                  <li>Status</li>
+                </ul>
+              </div>
+              <div>
+                <ul class="flex flex-col gap-2">
+                  <li class="font-bold mb-3">Functions</li>
+                  <li>Watch demo</li>
+                  <li>Pricing</li>
+                  <li>product</li>
+                  <li>Watch demo</li>
+                  <li>Pricing</li>
+                  <li>Paid vs Free</li>
+                  <li>Accessibility</li>
+
+                  <li>product</li>
+                  <li>Watch demo</li>
+                  <li>Pricing</li>
+                  <li>product</li>
+                  <li>Watch demo</li>
+                  <li>Pricing</li>
+                  <li>Paid vs Free</li>
+                  <li>Accessibility</li>
+                </ul>
+              </div>
+              <div>
+                <ul class="flex flex-col gap-2">
+                  <li class="font-bold mb-3">Career</li>
+                  <li>Watch demo</li>
+                  <li>Pricing</li>
+                  <li>Paid vs Free</li>
+                  <li>Accessibility</li>
+                  <li>Featured releases</li>
+                  <li>Change log</li>
+                  <li>Status</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="w-[55%] mt-6" />
+
+      <div
+        class="w-[55%] h-[130px] flex justify-between gap-[100px] items-center"
+      >
+        <div>
+          <ul class="flex space-x-6 text-sm text-nowrap">
+            <li>Douload SLack</li>
+            <li>Privacy</li>
+            <li>Term</li>
+            <li>Cokokie prefrences</li>
+            <li>your Privacy</li>
+            <li>choices *</li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-gray-800">
+            ©2024 Slack Technologies, LLC, a Salesforce company. All rights
+            reserved. Various trademarks held by their respective owners.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
